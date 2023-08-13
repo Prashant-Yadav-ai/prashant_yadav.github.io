@@ -1,0 +1,60 @@
+#header{
+    margin-top: 20px;
+    padding: 2px;
+}
+
+
+.img-fluid{
+    width: 300px;
+    height:300px;
+}
+
+.head-img{
+    text-align: right;
+}
+
+.btn-get-started{
+    text-decoration: none;
+    height: 20px;
+    width: 70px;
+    border: 2px solid rgb(46, 217, 236);
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-align: center;
+    color: aqua;
+    font-weight: bold;
+}
+
+.btn-get-started:hover{
+    color: black;
+    background: rgb(46, 217, 236);
+    transition: .5s;
+    font-weight: bold;
+}
+
+.my-3{
+    color: #484848;
+    font-size: 24px;
+}
+
+#header .animated{
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down{
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes up-down{
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}

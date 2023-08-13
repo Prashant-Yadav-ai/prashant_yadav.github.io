@@ -1,0 +1,46 @@
+.help{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: left;
+    border: 1px solid black;
+    margin: 15px auto;
+    background:white;
+
+}
+
+.icon{
+    font-size: 40px;
+    color: black;
+}
+
+.para{
+    font-weight: bold;
+    color: black;
+    padding: 2px;
+    margin:3px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+.btn{
+    color: white;
+    background: #ea830ee6;
+    width: 140px;
+    height: 40px;
+    font-weight: bold;
+}
+
+.bdy{
+    background: #e8c3a7;
+}
+
+@media (max-width:986px){
+    .help{
+        display: block;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+}
